@@ -4,7 +4,7 @@ public class ShortCircuitOperator {
         int b = 2;
         int c = 3;
 
-        if(a > b & a > c){
+        if(a > b & a > c){  // & - check both condition
             System.out.println(a + " is greater");
         }
         else if(b > c){
