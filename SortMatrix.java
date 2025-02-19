@@ -49,7 +49,7 @@ public class SortMatrix {
         }
 
         System.out.println("After Sorting: ");
-        for (i = 0; i < arr.length; i++) {    //Print Matrix
+        for (i = 0; i < arr.length; i++) {    //Print Matrix After Sorting
             for ( j = 0; j < arr.length; j++) {
                 System.out.print(arr[i][j] + " ");
             }
